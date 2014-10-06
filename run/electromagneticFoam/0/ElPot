@@ -1,0 +1,57 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.4                                   |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+    class           volScalarField;
+    object          ElPot;
+}
+
+dimensions      [1 2 -3 0 0 -1 0]; // [kg * m^2 /( s^3 A)]
+internalField   uniform 0;
+
+boundaryField
+{
+    airleft
+    {
+        type fixedValue;
+        value uniform 1.26e-6;
+    }
+
+    airright
+    {
+        type fixedValue;
+        value uniform 1.26e-6;
+    }
+
+    airdown
+    {
+        type fixedValue;
+        value uniform 1.26e-6;
+    }
+
+    airup
+    {
+        type fixedValue;
+        value uniform 1.26e-6;
+    }
+
+    rod
+    {
+        type fixedValue;
+        value uniform 1.26e-6;
+    }
+
+    backandfront
+    {
+        type fixedValue;
+        value uniform 1.26e-6;
+    }
+}

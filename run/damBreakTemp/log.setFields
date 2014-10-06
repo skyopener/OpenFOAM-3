@@ -1,0 +1,38 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : setFields
+Date   : Sep 27 2014
+Time   : 17:57:10
+Host   : "her0ms-air"
+PID    : 15268
+Case   : /Volumes/OpenFOAM-v2.3.0/her0m-2.3.0/run/damBreakTemp
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading setFieldsDict
+
+Setting field default values
+    Setting internal values of volScalarField alpha.water
+    Setting internal values of volScalarField T
+
+Setting field region values
+    Adding cells with center within boxes 1((0 0 -1) (0.1461 0.292 1))
+    Setting internal values of volScalarField alpha.water
+    Adding cells with center within boxes 1((0.2 0.3 -1) (0.3 0.4 1))
+    Setting internal values of volScalarField T
+
+End
+

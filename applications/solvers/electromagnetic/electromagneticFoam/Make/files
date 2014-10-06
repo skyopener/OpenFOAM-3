@@ -1,0 +1,3 @@
+electromagneticFoam.C
+
+EXE = $(FOAM_APPBIN)/electromagneticFoam

@@ -1,0 +1,14 @@
+# 1 "options"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 169 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "options" 2
+EXE_INC = -I.. -I../twoPhaseMixture/lnInclude -I$(LIB_SRC)/finiteVolume/lnInclude
+
+
+
+
+LIB_LIBS = -ltwoPhaseMixture -lfiniteVolume
+

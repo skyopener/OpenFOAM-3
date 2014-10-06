@@ -1,0 +1,11 @@
+LOCAL_OBJECTS = \
+viscosityModel.o\
+viscosityModelNew.o\
+Newtonian.o\
+powerLaw.o\
+CrossPowerLaw.o\
+BirdCarreau.o\
+HerschelBulkley.o\
+transportModel.o\
+singlePhaseTransportModel.o\
+myIncompressibleTwoPhaseMixture.o

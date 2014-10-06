@@ -1,0 +1,9 @@
+#!/bin/sh
+blockMesh
+setFields
+rodFoam
+foamCalc components A
+foamCalc components B
+sample
+gnuplot rodComparisonAxBz.plt
+ggv rodAxVSy.ps rodBzVSy.ps
